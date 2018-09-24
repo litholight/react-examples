@@ -9,8 +9,7 @@
   },
   "dependencies": {
     "react": "16.5.2",
-    "react-dom": "16.5.2",
-    "validator": "10.7.1"
+    "react-dom": "16.5.2"
   },
   "devDependencies": {
     "parcel-bundler": "^1.6.1"
