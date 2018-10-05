@@ -32,7 +32,7 @@ export default class IndecisionApp extends React.Component {
     if (!option) {
       return "Enter valid value to add item";
     } else if (this.state.options.indexOf(option) > -1) {
-      return "This option alread exists";
+      return "This option already exists";
     }
     this.setState(prevState => ({ options: prevState.options.concat(option) }));
   };
