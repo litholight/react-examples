@@ -1,13 +1,6 @@
 import React from "react";
 import ReactDOM from "react-dom";
-import IndecisionApp from "./components/IndecisionApp";
 import "normalize.css/normalize.css";
 import "./styles/styles.scss";
 
-ReactDOM.render(<IndecisionApp />, document.getElementById("app"));
-
-class NewSyntax {
-  name = "Sean";
-}
-const newSyntax = new NewSyntax();
-console.log(newSyntax);
+ReactDOM.render(<p>This is my boilerpoint.</p>, document.getElementById("app"));
